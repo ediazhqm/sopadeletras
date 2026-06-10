@@ -200,7 +200,7 @@ if 'total_palabras' not in st.session_state:
     st.session_state.total_palabras = 0
 
 # Palabras precargadas para probar (separadas por salto de línea)
-default_words = "IPERC\nLOTO\nPREVENCION\nSALUD OCUPACIONAL\nDC571\nINSPECCION\nRIESGOS\nEPP"
+default_words = "IPERC\nLOTO\nKPREVENCION\nSALUD OCUPACIONAL\n29783\nINSPECCION\nRIESGOS\nEPP"
 
 texto_ingresado = st.text_area(
     "Palabras o frases (Una por línea, usa 'Enter' para separar):", 
